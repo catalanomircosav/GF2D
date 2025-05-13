@@ -3,7 +3,7 @@
 
 extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c \
-  extern/SDL3/include-config-/build_config/SDL_build_config.h \
+  extern/SDL3/include-config-release/build_config/SDL_build_config.h \
   /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h \
   /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h \
   /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h \
@@ -103,12 +103,21 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: extern/SDL3/CMakeFiles/S
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -139,6 +148,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: extern/SDL3/CMakeFiles/S
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -350,6 +361,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/SDL.c.o: extern/SDL3/CMakeFiles/SDL3-
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -428,6 +441,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: extern/SDL3/CMakeFiles
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
@@ -588,9 +603,11 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: extern
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/poll2.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -609,6 +626,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: extern
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/poll.h \
@@ -738,6 +757,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: 
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -768,6 +789,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o: exter
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/poll2.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sigaction.h \
@@ -794,6 +816,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o: exter
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/poll.h \
@@ -918,6 +942,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o: exte
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
@@ -958,6 +983,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o: exte
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
@@ -1061,6 +1088,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: extern/SDL3
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
@@ -1078,6 +1106,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o: extern/SDL3
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
@@ -1183,6 +1213,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o: extern/
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
@@ -1216,6 +1247,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o: extern/
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
@@ -1373,6 +1406,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o: extern/SDL3
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ipc.h \
@@ -1817,6 +1852,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: extern/SDL3/
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/inotify.h \
@@ -1877,6 +1913,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o: extern/SDL3/
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -2278,6 +2316,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o: extern/SDL3/C
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -2332,6 +2372,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_progressbar.c.o: exter
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -2379,6 +2421,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o: exte
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -2441,6 +2485,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o: extern
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/resource.h \
@@ -2514,6 +2560,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o: extern/SDL3/
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
@@ -2532,6 +2580,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o: extern/SDL3/C
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/poll2.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
@@ -2553,6 +2602,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o: extern/SDL3/
   /usr/include/x86_64-linux-gnu/bits/hwcap.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/auxv.h \
@@ -2638,6 +2689,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o: ext
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -2662,7 +2715,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o: ext
   /usr/include/stdc-predef.h
 
 extern/SDL3/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi.c \
-  extern/SDL3/include-config-/build_config/SDL_build_config.h \
+  extern/SDL3/include-config-release/build_config/SDL_build_config.h \
   /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h \
   /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h \
   /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h \
@@ -2751,12 +2804,21 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: /home/mirco/Do
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -2787,6 +2849,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o: /home/mirco/Do
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -3105,6 +3169,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: extern/SDL3/CMak
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
@@ -3235,6 +3301,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o: ex
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -3280,6 +3348,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -3300,6 +3369,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -3443,6 +3514,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: exter
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
@@ -3467,6 +3539,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: exter
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -3541,6 +3615,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: extern/SDL3/CM
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/inotify.h \
@@ -3550,6 +3625,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: extern/SDL3/CM
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/poll2.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -3570,6 +3646,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: extern/SDL3/CM
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/utsname.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -3648,6 +3726,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: extern/SDL3/CMak
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -4112,6 +4192,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o: e
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/inotify.h \
@@ -4137,6 +4218,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o: e
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -4267,6 +4350,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o: extern/SDL3
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
@@ -4328,6 +4413,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: extern/
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -4344,6 +4430,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: extern/
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -4390,6 +4478,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: e
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
@@ -4430,6 +4519,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: e
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -5044,6 +5135,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o: exter
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
@@ -5269,6 +5362,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: ext
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/resource.h \
@@ -5359,6 +5454,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o: extern/SDL
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
@@ -5437,6 +5534,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: extern/S
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
@@ -5494,6 +5593,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o: extern/SDL3/C
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
@@ -5799,6 +5900,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o: extern/SDL3/CMak
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -6038,6 +6141,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o: ex
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -6046,6 +6150,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o: ex
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -6104,6 +6210,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o: ext
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -6112,6 +6219,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o: ext
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -6177,6 +6286,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o: 
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -6186,6 +6296,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o: 
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -6279,12 +6391,14 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: ext
   /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/param.h \
   /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/poll2.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -6324,6 +6438,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: ext
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/utsname.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -6415,6 +6531,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o: ex
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
@@ -6444,6 +6561,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o: ex
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ioctl.h \
@@ -7110,6 +7229,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o: extern/S
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -7601,6 +7722,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o: exte
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ipc.h \
@@ -8991,6 +9114,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o: extern/SD
   /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/sys/ipc.h \
@@ -10397,10 +10522,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_blendline.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/yuv2rgb/yuv_rgb_lsx.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_blendline.c:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_draw.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/storage/steam/SDL_steamstorage.c:
@@ -10415,19 +10536,23 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengles2/SDL_render_gles2.c:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11keyboard.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_shaders_gl.c:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11events.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_shaders_gl.h:
 
-/usr/include/pulse/version.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_glfuncs.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/dummy/SDL_nullframebuffer_c.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/tri_texture.vert.spv.h:
 
-/usr/include/glib-2.0/glib/garray.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgb_pixelart.frag.spv.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_opengl.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_blit_slow.c:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/power/linux/SDL_syspower.c:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgb.frag.spv.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/offscreen/SDL_offscreenevents_c.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/SDL_shaders_gpu.c:
 
 /usr/include/linux/keyboard.h:
 
@@ -10490,8 +10615,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 /usr/include/glib-2.0/gio/gtask.h:
 
 /usr/include/linux/types.h:
-
-/usr/include/linux/posix_types.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11pen.h:
 
@@ -10573,10 +10696,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /usr/include/pulse/direction.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11modes.h:
-
-/usr/include/glib-2.0/gio/gtlsbackend.h:
-
 /usr/include/pulse/context.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/SDL_mixer.c:
@@ -10623,11 +10742,13 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /usr/include/linux/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
 /usr/include/alsa/version.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11dyn.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11dyn.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_video_c.h:
 
@@ -10636,8 +10757,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 /usr/include/glib-2.0/gio/gtcpwrapperconnection.h:
 
 /usr/include/alsa/ump.h:
-
-/usr/include/alsa/timer.h:
 
 /usr/include/glib-2.0/gio/gio.h:
 
@@ -10655,8 +10774,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
-/usr/include/X11/extensions/XKBstr.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/pulseaudio/SDL_pulseaudio.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
@@ -10666,8 +10783,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/disk/SDL_diskaudio.h:
 
 /usr/include/alsa/control.h:
-
-/usr/include/linux/wait.h:
 
 /usr/include/x86_64-linux-gnu/bits/mman_ext.h:
 
@@ -10686,6 +10801,12 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/glib-2.0/gio/gvolumemonitor.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/yuv2rgb/yuv_rgb_lsx.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_blendline.c:
+
+/usr/include/x86_64-linux-gnu/bits/poll2.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
@@ -10737,13 +10858,9 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_gamepad.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/atomic/SDL_spinlock.c:
-
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_events_c.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_shaders_gl.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/atomic/SDL_atomic.c:
 
@@ -10754,8 +10871,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/stdlib/SDL_vacopy.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_log.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11mouse.h:
 
 /usr/include/glib-2.0/gio/gbufferedoutputstream.h:
 
@@ -10777,6 +10892,12 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
+/usr/include/alsa/timer.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/ibus-1.0/ibusdebug.h:
@@ -10790,6 +10911,10 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 /usr/include/alsa/asoundef.h:
 
 /usr/include/glib-2.0/glib/gdatetime.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/tri_color.vert.spv.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
@@ -10833,6 +10958,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o: extern
 
 /usr/include/libudev.h:
 
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11keyboard.h:
+
 extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/dbus-1.0/dbus/dbus-errors.h:
@@ -10848,8 +10975,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 /usr/include/dbus-1.0/dbus/dbus-bus.h:
 
 /usr/include/x86_64-linux-gnu/bits/resource.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11settings.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/tray/SDL_tray_utils.h:
 
@@ -10889,13 +11014,11 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_touch_c.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11dyn.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_pen_c.h:
-
 /usr/include/pulse/mainloop-signal.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_mouse_c.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/offscreen/SDL_offscreenvideo.h:
 
@@ -10929,31 +11052,47 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_sysvideo.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/SDL_sysaudio.h:
 
-/usr/include/features-time64.h:
+/usr/include/linux/stddef.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/imKStoUCS.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/alsa/SDL_alsa_audio.c:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/pulse/mainloop.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/glib-2.0/gio/gpollableutils.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/linux/v4l2-common.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/controller_type.c:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_assert_c.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
 /usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/SDL_audio.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_touch.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_hidapi.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_shmid_ds.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_clipboard_c.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/camera/v4l2/SDL_camera_v4l2.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_RLEaccel.c:
+
+/usr/include/spawn.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -10985,10 +11124,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/glib-2.0/glib/deprecated/gcache.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_rect.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_surface.h:
@@ -11001,25 +11136,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/pulse/gccmacro.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_RLEaccel_c.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_version.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/glib-2.0/glib/goption.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/SDL_sysaudio.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/X11/Xprotostr.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -11033,6 +11150,16 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/string.h:
 
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_hints_c.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/camera/SDL_camera_c.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11dyn.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_pen_c.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_messagebox.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_atomic.h:
@@ -11041,27 +11168,13 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/linux/videodev2.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/ibus-1.0/ibusconfig.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_begin_code.h:
-
-/usr/include/glib-2.0/gio/gfilteroutputstream.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/memory.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_clipboardevents.c:
-
-/usr/include/features.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h:
+
+/usr/include/linux/wait.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
@@ -11095,7 +11208,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_hashtable.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/sndio/SDL_sndioaudio.c:
+/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_video.h:
 
@@ -11127,9 +11240,35 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_touch.h:
 
+/usr/include/linux/posix_types.h:
+
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_timer.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_RLEaccel_c.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_version.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_begin_code.h:
+
+/usr/include/glib-2.0/gio/gfilteroutputstream.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/ibus-1.0/ibusconfig.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/atomic/SDL_spinlock.c:
+
+/usr/include/X11/extensions/XKBstr.h:
+
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h:
 
@@ -11181,6 +11320,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/glib-2.0/gobject/glib-enumtypes.h:
 
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/sndio/SDL_sndioaudio.c:
+
 /usr/include/glib-2.0/gio/gicon.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_sensor.h:
@@ -11194,10 +11335,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_close_code.h:
 
 /usr/include/alsa/pcm.h:
-
-/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h:
 
@@ -11221,6 +11358,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/core/linux/SDL_evdev_kbd.c:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_camera.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h:
@@ -11239,6 +11378,20 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/glib-2.0/gobject/genums.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/camera/SDL_syscamera.h:
+
+/usr/include/x86_64-linux-gnu/asm/unistd.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h:
+
+/usr/include/ibus-1.0/ibusattribute.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_cpuinfo.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h:
+
 /usr/include/pulse/rtclock.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h:
@@ -11253,6 +11406,28 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h:
 
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/imKStoUCS.h:
+
+extern/SDL3/include-config-release/build_config/SDL_build_config.h:
+
+extern/SDL3/include-revision/SDL3/SDL_revision.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_log_c.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_drawline.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/hidapi/linux/hid.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h:
+
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/dbus-1.0/dbus/dbus-message.h:
@@ -11265,37 +11440,13 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/include/X11/Xfuncs.h:
 
-/usr/include/linux/stddef.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/alsa/SDL_alsa_audio.c:
-
-/usr/include/pulse/mainloop.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_assert_c.h:
-
-/usr/include/glib-2.0/gio/gpollableutils.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/camera/SDL_camera_c.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_hints_c.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/glib-2.0/glib/gstrvbuilder.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h:
-
-/usr/include/glib-2.0/gio/gdtlsserverconnection.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/SDL_hidapi_luna.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/SDL_hidapijoystick.c:
+
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -11313,43 +11464,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/SDL_audio.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_touch.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_hidapi.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_shmid_ds.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_clipboard_c.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/camera/v4l2/SDL_camera_v4l2.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_RLEaccel.c:
-
-/usr/include/spawn.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_clipboard.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/camera/SDL_syscamera.h:
-
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h:
-
-/usr/include/ibus-1.0/ibusattribute.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_cpuinfo.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h:
-
-extern/SDL3/include-config-/build_config/SDL_build_config.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h:
 
 /usr/include/linux/const.h:
 
@@ -11358,6 +11473,8 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 /usr/include/glib-2.0/glib/guri.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_joystick.h:
 
@@ -11376,26 +11493,6 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 /usr/include/math.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_thread.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/SDL_steam_virtual_gamepad.h:
-
-/usr/include/X11/extensions/shapeconst.h:
-
-/usr/include/glib-2.0/gio/gunixconnection.h:
-
-/usr/include/dbus-1.0/dbus/dbus-memory.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi_overrides.h:
-
-/usr/include/glib-2.0/gio/gmenuexporter.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/glib-2.0/gio/gsubprocess.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_keycode.h:
 
@@ -11445,13 +11542,15 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_pen.h:
 
-/usr/include/alsa/global.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/spir-v.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_properties.h:
 
 /usr/include/X11/Xcursor/Xcursor.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_surface_c.h:
+
+/usr/include/X11/extensions/xfixeswire.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/SDL_wave.c:
 
@@ -11471,6 +11570,78 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/SDL_steam_virtual_gamepad.h:
+
+/usr/include/X11/extensions/shapeconst.h:
+
+/usr/include/glib-2.0/gio/gunixconnection.h:
+
+/usr/include/dbus-1.0/dbus/dbus-memory.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi_overrides.h:
+
+/usr/include/glib-2.0/gio/gmenuexporter.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/glib-2.0/gio/gsubprocess.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/X11/Xprotostr.h:
+
+/usr/include/pulse/version.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/dummy/SDL_nullframebuffer_c.h:
+
+/usr/include/glib-2.0/glib/garray.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/linux/v4l2-common.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/controller_type.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/glib-2.0/glib/gstrvbuilder.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/spir-v.h:
+
+/usr/include/alsa/global.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h:
+
+/usr/include/glib-2.0/gio/gdtlsserverconnection.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/SDL_hidapi_luna.c:
+
+/usr/include/features.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/events/SDL_clipboardevents.c:
+
 /usr/include/glib-2.0/gio/gioscheduler.h:
 
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
@@ -11480,6 +11651,12 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 /usr/include/glib-2.0/glib/deprecated/grel.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/langinfo.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_render_gl.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/disk/SDL_diskaudio.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/offscreen/SDL_offscreenopengles.h:
 
@@ -11494,6 +11671,26 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/virtual/SDL_virtualjoystick.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/glib-2.0/glib/goption.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/idtype_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_init.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/stdlib/SDL_sysstdlib.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -11523,24 +11720,6 @@ extern/SDL3/include-config-/build_config/SDL_build_config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_opengl_glext.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/edid.h:
-
-/usr/include/x86_64-linux-gnu/sys/ioctl.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/dbus-1.0/dbus/dbus-connection.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgba.frag.spv.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/khronos/vk_video/vulkan_video_codecs_common.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h:
-
-extern/SDL3/include-revision/SDL3/SDL_revision.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_oldnames.h:
 
 /usr/include/x86_64-linux-gnu/sys/wait.h:
@@ -11550,6 +11729,10 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 /usr/include/sndio.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/SDL_gpu_vulkan.c:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:
 
@@ -11593,33 +11776,11 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_init.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/stdlib/SDL_sysstdlib.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/SDL_gamepad.c:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_log_c.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_drawline.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/hidapi/linux/hid.c:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h:
 
@@ -11631,9 +11792,9 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-
 /usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h:
 
@@ -11649,8 +11810,6 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11clipboard.h:
-
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
@@ -11665,13 +11824,11 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_bits.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11opengl.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/core/linux/SDL_dbus.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:
 
@@ -11703,15 +11860,41 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /usr/include/glib-2.0/gio/gioenums.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL.c:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_opengl.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/core/linux/SDL_dbus.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/power/linux/SDL_syspower.c:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_opengl_glext.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_surface_c.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/edid.h:
 
-/usr/include/X11/extensions/xfixeswire.h:
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgba.frag.spv.h:
+
+/usr/include/x86_64-linux-gnu/sys/ioctl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/dbus-1.0/dbus/dbus-connection.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/khronos/vk_video/vulkan_video_codecs_common.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11clipboard.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11events.h:
+
+/usr/include/glib-2.0/gio/gtlsbackend.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11modes.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/glib-2.0/glib/deprecated/gcache.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11mouse.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11opengl.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11settings.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/x11/SDL_x11window.h:
 
@@ -11740,6 +11923,12 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 /usr/include/X11/XKBlib.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/SDL_hidapi_xbox360w.c:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/SDL_render_gpu.c:
+
+/usr/include/glib-2.0/gio/gtlsfiledatabase.h:
+
+/usr/include/X11/Xfuncproto.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:
 
@@ -11817,9 +12006,9 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /usr/include/ibus-1.0/ibusunicode.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/color.frag.spv.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgba_pixelart.frag.spv.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/color.frag.spv.h:
 
 /usr/include/X11/extensions/syncconst.h:
 
@@ -11954,8 +12143,6 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:
 
 /usr/include/glib-2.0/gio/gdbusobjectproxy.h:
-
-/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h:
 
@@ -12113,19 +12300,13 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /usr/include/glib-2.0/gio/gtcpconnection.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/core/linux/SDL_ime.h:
-
 /usr/include/limits.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/core/linux/SDL_ime.h:
 
 /usr/include/glib-2.0/gio/gthemedicon.h:
 
 /usr/include/glib-2.0/gio/gthreadedsocketservice.h:
-
-/usr/include/langinfo.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/disk/SDL_diskaudio.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_render_gl.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_internal.h:
 
@@ -12336,6 +12517,8 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 /usr/include/ibus-1.0/ibusenginesimple.h:
 
 /usr/include/glib-2.0/glib/gtree.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/glib-2.0/glib/gtypes.h:
 
@@ -12613,15 +12796,9 @@ extern/SDL3/include-revision/SDL3/SDL_revision.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/khronos/vulkan/vulkan.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/SDL_gpu_vulkan.c:
-
 /usr/include/x86_64-linux-gnu/sys/ipc.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/haptic/SDL_syshaptic.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/offscreen/SDL_offscreenevents_c.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/SDL_shaders_gpu.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/haptic/hidapi/SDL_hidapihaptic.h:
 
@@ -12695,8 +12872,6 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/steam/controller_structs.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_shaders_gl.h:
-
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/SDL_hidapi_steam_hori.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/joystick/hidapi/SDL_hidapi_wii.c:
@@ -12739,6 +12914,12 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/SDL_render_debug_font.h:
 
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/linepoint.vert.spv.h:
+
+/usr/include/X11/extensions/XInput2.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_render_sw_c.h:
+
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/kmsdrm/SDL_kmsdrmsym.h:
 
 /usr/include/glib-2.0/gobject/gvalue.h:
@@ -12760,29 +12941,3 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c:
 /usr/include/GLES2/gl2.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/SDL_shaders_gpu.h:
-
-/usr/include/glib-2.0/gio/gtlsfiledatabase.h:
-
-/usr/include/X11/Xfuncproto.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/SDL_render_gpu.c:
-
-/usr/include/X11/extensions/XInput2.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/software/SDL_render_sw_c.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/linepoint.vert.spv.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/SDL_blit_slow.c:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgb.frag.spv.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/texture_rgb_pixelart.frag.spv.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/tri_color.vert.spv.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/gpu/shaders/tri_texture.vert.spv.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/render/opengl/SDL_glfuncs.h:

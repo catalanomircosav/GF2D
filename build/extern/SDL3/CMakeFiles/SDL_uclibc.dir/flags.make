@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DUSING_GENERATED_CONFIG_H
 
-C_INCLUDES = -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/src -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/include
+C_INCLUDES = -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/src -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/include
 
-C_FLAGS = -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
+C_FLAGS = -O3 -DNDEBUG -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
 

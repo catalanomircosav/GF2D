@@ -131,29 +131,29 @@ framework/fast:
 	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/build
 .PHONY : framework/fast
 
-src/HelloWorld.o: src/HelloWorld.cpp.o
-.PHONY : src/HelloWorld.o
+src/Core/Logger.o: src/Core/Logger.cpp.o
+.PHONY : src/Core/Logger.o
 
 # target to build an object file
-src/HelloWorld.cpp.o:
-	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o
-.PHONY : src/HelloWorld.cpp.o
+src/Core/Logger.cpp.o:
+	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o
+.PHONY : src/Core/Logger.cpp.o
 
-src/HelloWorld.i: src/HelloWorld.cpp.i
-.PHONY : src/HelloWorld.i
+src/Core/Logger.i: src/Core/Logger.cpp.i
+.PHONY : src/Core/Logger.i
 
 # target to preprocess a source file
-src/HelloWorld.cpp.i:
-	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.i
-.PHONY : src/HelloWorld.cpp.i
+src/Core/Logger.cpp.i:
+	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.i
+.PHONY : src/Core/Logger.cpp.i
 
-src/HelloWorld.s: src/HelloWorld.cpp.s
-.PHONY : src/HelloWorld.s
+src/Core/Logger.s: src/Core/Logger.cpp.s
+.PHONY : src/Core/Logger.s
 
 # target to generate assembly for a file
-src/HelloWorld.cpp.s:
-	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.s
-.PHONY : src/HelloWorld.cpp.s
+src/Core/Logger.cpp.s:
+	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.s
+.PHONY : src/Core/Logger.cpp.s
 
 # Help Target
 help:
@@ -164,9 +164,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... framework"
-	@echo "... src/HelloWorld.o"
-	@echo "... src/HelloWorld.i"
-	@echo "... src/HelloWorld.s"
+	@echo "... src/Core/Logger.o"
+	@echo "... src/Core/Logger.i"
+	@echo "... src/Core/Logger.s"
 .PHONY : help
 
 

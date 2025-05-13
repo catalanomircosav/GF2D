@@ -58,11 +58,11 @@ set_target_properties(SDL3::SDL3-shared PROPERTIES
   INTERFACE_SDL_VERSION "SDL3"
 )
 
-# Import target "SDL3::SDL3-shared" for configuration ""
-set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "SDL3::SDL3-shared" for configuration "Release"
+set_property(TARGET SDL3::SDL3-shared APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(SDL3::SDL3-shared PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/mirco/Documenti/projects/GF2D/build/lib/libSDL3.so.0.3.0"
-  IMPORTED_SONAME_NOCONFIG "libSDL3.so.0"
+  IMPORTED_LOCATION_RELEASE "/home/mirco/Documenti/projects/GF2D/build/lib/libSDL3.so.0.3.0"
+  IMPORTED_SONAME_RELEASE "libSDL3.so.0"
   )
 
 # Make sure the targets which have been exported in some other

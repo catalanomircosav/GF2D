@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-revision -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/include
 
-C_FLAGS = -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
+C_FLAGS = -O3 -DNDEBUG -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
 

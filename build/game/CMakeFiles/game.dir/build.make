@@ -94,6 +94,7 @@ bin/game: game/CMakeFiles/game.dir/src/main.cpp.o
 bin/game: game/CMakeFiles/game.dir/build.make
 bin/game: lib/libframework.a
 bin/game: lib/libSDL3.so.0.3.0
+bin/game: lib/libspdlog.a
 bin/game: /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi.sym
 bin/game: game/CMakeFiles/game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mirco/Documenti/projects/GF2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/game"

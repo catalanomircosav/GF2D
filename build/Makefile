@@ -157,6 +157,19 @@ SDL_uclibc/fast:
 .PHONY : SDL_uclibc/fast
 
 #=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f extern/spdlog/CMakeFiles/spdlog.dir/build.make extern/spdlog/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
 # Target rules for targets named framework
 
 # Build rule for target.
@@ -195,6 +208,7 @@ help:
 	@echo "... SDL_uclibc"
 	@echo "... framework"
 	@echo "... game"
+	@echo "... spdlog"
 .PHONY : help
 
 

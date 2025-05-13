@@ -91,6 +91,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -104,6 +106,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -204,6 +208,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -217,6 +223,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -316,6 +324,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /home/mirco/
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -329,6 +339,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o: /home/mirco/
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -428,6 +440,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /home/mirco/Do
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -441,6 +455,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o: /home/mirco/Do
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -540,6 +556,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /home/mirco/Doc
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -553,6 +571,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o: /home/mirco/Doc
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -659,6 +679,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -672,6 +694,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -776,11 +800,17 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /home/mirco/
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -807,6 +837,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o: /home/mirco/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -909,6 +941,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /home/mirco/Docu
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -930,6 +964,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o: /home/mirco/Docu
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1029,6 +1065,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /home/mirco/Docu
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -1042,6 +1080,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o: /home/mirco/Docu
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1141,6 +1181,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -1154,6 +1196,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -1177,6 +1221,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
@@ -1235,6 +1281,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_test.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_hidapi.h:
 
@@ -1298,7 +1346,11 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
+
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/test/SDL_test_assert.c:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -1307,6 +1359,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_error.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_test_assert.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_test_fuzzer.h:
 
@@ -1352,6 +1406,10 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_keyboard.h:
+
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/test/SDL_test_harness.c:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_thread.h:
@@ -1375,6 +1433,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_version.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_video.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
@@ -1414,6 +1474,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
@@ -1446,9 +1508,17 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+
+/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_clipboard.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/test/SDL_test_common.c:
 
@@ -1462,18 +1532,8 @@ extern/SDL3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o: /home/mirco/D
 
 /usr/include/limits.h:
 
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_keyboard.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
 
 /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_iostream.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
-
-/home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_clipboard.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:

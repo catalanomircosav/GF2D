@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../lib/libframework.a CMakeFiles/framework.dir/src/HelloWorld.cpp.o
+/usr/bin/ar qc ../lib/libframework.a CMakeFiles/framework.dir/src/Core/Logger.cpp.o
 /usr/bin/ranlib ../lib/libframework.a

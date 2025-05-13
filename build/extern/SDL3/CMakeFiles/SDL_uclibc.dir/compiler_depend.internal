@@ -3,7 +3,7 @@
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_atan2.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -105,12 +105,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -141,6 +150,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -250,7 +261,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_exp.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -352,12 +363,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -388,6 +408,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -497,7 +519,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_fmod.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -599,12 +621,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -635,6 +666,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -744,7 +777,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_log.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -846,12 +879,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -882,6 +924,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -991,7 +1035,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_log10.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -1093,12 +1137,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -1129,6 +1182,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -1238,7 +1293,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_pow.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -1340,12 +1395,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -1376,6 +1440,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -1485,7 +1551,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_rem_pio2.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -1587,12 +1653,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -1623,6 +1698,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -1732,7 +1809,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_sqrt.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -1834,12 +1911,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -1870,6 +1956,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -1979,7 +2067,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/k_cos.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -2081,12 +2169,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -2117,6 +2214,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -2226,7 +2325,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/k_rem_pio2.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -2328,12 +2427,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -2364,6 +2472,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -2473,7 +2583,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/k_sin.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -2575,12 +2685,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -2611,6 +2730,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -2720,7 +2841,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/k_tan.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -2822,12 +2943,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -2858,6 +2988,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -2967,7 +3099,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_atan.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -3069,12 +3201,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -3105,6 +3246,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -3214,7 +3357,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_copysign.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -3316,12 +3459,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -3352,6 +3504,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -3461,7 +3615,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_cos.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -3563,12 +3717,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -3599,6 +3762,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -3708,7 +3873,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_fabs.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -3810,12 +3975,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -3846,6 +4020,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -3955,7 +4131,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_floor.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -4057,12 +4233,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -4093,6 +4278,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -4202,7 +4389,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_isinf.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -4303,12 +4490,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -4339,6 +4535,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -4448,7 +4646,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_isinff.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -4549,12 +4747,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -4585,6 +4792,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -4694,7 +4903,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_isnan.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -4795,12 +5004,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -4831,6 +5049,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -4940,7 +5160,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_isnanf.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -5041,12 +5261,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -5077,6 +5306,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -5186,7 +5417,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_modf.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -5288,12 +5519,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -5324,6 +5564,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -5433,7 +5675,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_scalbn.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -5541,12 +5783,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -5578,6 +5829,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
@@ -5690,7 +5943,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_sin.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -5792,12 +6045,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -5828,6 +6090,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -5937,7 +6201,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o
 
 extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/s_tan.c
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h
@@ -6039,12 +6303,21 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h
  /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+ /usr/include/x86_64-linux-gnu/bits/stdio.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
@@ -6075,6 +6348,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o
  /usr/include/x86_64-linux-gnu/bits/waitflags.h
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h
  /usr/include/x86_64-linux-gnu/bits/wchar.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  /usr/include/x86_64-linux-gnu/gnu/stubs.h

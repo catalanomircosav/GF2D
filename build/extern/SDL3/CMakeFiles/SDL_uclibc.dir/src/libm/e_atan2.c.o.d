@@ -2,7 +2,7 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/libm/e_atan2.c \
  /usr/include/stdc-predef.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_internal.h \
- /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config/SDL_build_config.h \
+ /home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config/SDL_build_config.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_platform_defines.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi_overrides.h \
@@ -33,6 +33,8 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -50,17 +52,26 @@ extern/SDL3/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/memory.h /usr/include/string.h /usr/include/strings.h \
+ /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/memory.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/inttypes.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/math.h \

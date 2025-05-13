@@ -30,6 +30,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -40,6 +42,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o: \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h /usr/include/poll.h \
  /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll2.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/sndio/../SDL_sysaudio.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/audio/sndio/SDL_sndioaudio.h \
  /usr/include/sndio.h /usr/include/x86_64-linux-gnu/sys/types.h

@@ -5,7 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # HEADERS at framework/CMakeLists.txt:4 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mirco/Documenti/projects/GF2D/framework/include/*.h")
 set(OLD_GLOB
-  "/home/mirco/Documenti/projects/GF2D/framework/include/HelloWorld.h"
+  "/home/mirco/Documenti/projects/GF2D/framework/include/Core/Logger.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -15,7 +15,7 @@ endif()
 # SOURCES at framework/CMakeLists.txt:3 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mirco/Documenti/projects/GF2D/framework/src/*.cpp")
 set(OLD_GLOB
-  "/home/mirco/Documenti/projects/GF2D/framework/src/HelloWorld.cpp"
+  "/home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

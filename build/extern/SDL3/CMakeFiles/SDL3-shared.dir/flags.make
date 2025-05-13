@@ -4,9 +4,9 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=3 -DUSING_GENERATED_CONFIG_H
 
-C_INCLUDES = -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-/build_config -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-revision -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/include -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/src -isystem /usr/include/libdrm -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /usr/include/ibus-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid
+C_INCLUDES = -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-config-release/build_config -I/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/include-revision -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/include -I/home/mirco/Documenti/projects/GF2D/extern/SDL3/src -isystem /usr/include/libdrm -isystem /usr/include/dbus-1.0 -isystem /usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /usr/include/ibus-1.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib/x86_64-linux-gnu/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid
 
-C_FLAGS = -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/khronos -D_REENTRANT
+C_FLAGS = -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -idirafter/home/mirco/Documenti/projects/GF2D/extern/SDL3/src/video/khronos -D_REENTRANT
 
 # PCH options: extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch_OPTIONS = -Winvalid-pch;-x;c-header;-include;/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/CMakeFiles/SDL3-shared.dir/cmake_pch.h
 

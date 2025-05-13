@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/game.dir/src/main.cpp.o -o ../bin/game  -Wl,-rpath,/home/mirco/Documenti/projects/GF2D/build/lib ../lib/libframework.a ../lib/libSDL3.so.0.3.0 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/game.dir/src/main.cpp.o -o ../bin/game  -Wl,-rpath,/home/mirco/Documenti/projects/GF2D/build/lib ../lib/libframework.a ../lib/libSDL3.so.0.3.0 ../lib/libspdlog.a 

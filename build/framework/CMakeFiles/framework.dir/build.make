@@ -69,28 +69,28 @@ include framework/CMakeFiles/framework.dir/progress.make
 # Include the compile flags for this target's objects.
 include framework/CMakeFiles/framework.dir/flags.make
 
-framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o: framework/CMakeFiles/framework.dir/flags.make
-framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o: /home/mirco/Documenti/projects/GF2D/framework/src/HelloWorld.cpp
-framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mirco/Documenti/projects/GF2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o"
-	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o -MF CMakeFiles/framework.dir/src/HelloWorld.cpp.o.d -o CMakeFiles/framework.dir/src/HelloWorld.cpp.o -c /home/mirco/Documenti/projects/GF2D/framework/src/HelloWorld.cpp
+framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o: framework/CMakeFiles/framework.dir/flags.make
+framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o: /home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp
+framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mirco/Documenti/projects/GF2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o"
+	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o -MF CMakeFiles/framework.dir/src/Core/Logger.cpp.o.d -o CMakeFiles/framework.dir/src/Core/Logger.cpp.o -c /home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp
 
-framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/src/HelloWorld.cpp.i"
-	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mirco/Documenti/projects/GF2D/framework/src/HelloWorld.cpp > CMakeFiles/framework.dir/src/HelloWorld.cpp.i
+framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/src/Core/Logger.cpp.i"
+	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp > CMakeFiles/framework.dir/src/Core/Logger.cpp.i
 
-framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/src/HelloWorld.cpp.s"
-	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mirco/Documenti/projects/GF2D/framework/src/HelloWorld.cpp -o CMakeFiles/framework.dir/src/HelloWorld.cpp.s
+framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/src/Core/Logger.cpp.s"
+	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp -o CMakeFiles/framework.dir/src/Core/Logger.cpp.s
 
 # Object files for target framework
 framework_OBJECTS = \
-"CMakeFiles/framework.dir/src/HelloWorld.cpp.o"
+"CMakeFiles/framework.dir/src/Core/Logger.cpp.o"
 
 # External object files for target framework
 framework_EXTERNAL_OBJECTS =
 
-lib/libframework.a: framework/CMakeFiles/framework.dir/src/HelloWorld.cpp.o
+lib/libframework.a: framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o
 lib/libframework.a: framework/CMakeFiles/framework.dir/build.make
 lib/libframework.a: /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi.sym
 lib/libframework.a: framework/CMakeFiles/framework.dir/link.txt

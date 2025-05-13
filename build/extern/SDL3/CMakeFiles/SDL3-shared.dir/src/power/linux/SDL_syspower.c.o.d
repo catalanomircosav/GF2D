@@ -11,6 +11,8 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -40,7 +42,7 @@ extern/SDL3/CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/linux/falloc.h \
+ /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/power/linux/../SDL_syspower.h \
  /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/power/linux/../../core/linux/SDL_dbus.h \
  /usr/include/dbus-1.0/dbus/dbus.h \
