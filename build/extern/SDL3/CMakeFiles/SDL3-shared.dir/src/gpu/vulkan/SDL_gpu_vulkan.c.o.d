@@ -1,0 +1,33 @@
+extern/SDL3/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/SDL_gpu_vulkan.c \
+ /usr/include/stdc-predef.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/SDL_internal.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/vulkan.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/vk_platform.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/vulkan_core.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codecs_common.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std_encode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std_encode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std_decode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std_decode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std_decode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/khronos/vulkan/vulkan_beta.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_vulkan.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_stdinc.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_error.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_video.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_begin_code.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_close_code.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../SDL_sysgpu.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/SDL_sysvideo.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/SDL_surface_c.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/../../video/SDL_blit.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h

@@ -1,0 +1,13 @@
+/home/mirco/Documenti/projects/GF2D/build/CMakeFiles/edit_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/CMakeFiles/rebuild_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/CMakeFiles/SDL3-shared.dir
+/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/CMakeFiles/SDL3_test.dir
+/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/CMakeFiles/SDL_uclibc.dir
+/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/CMakeFiles/edit_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/extern/SDL3/CMakeFiles/rebuild_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/framework/CMakeFiles/framework.dir
+/home/mirco/Documenti/projects/GF2D/build/framework/CMakeFiles/edit_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/framework/CMakeFiles/rebuild_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/game/CMakeFiles/game.dir
+/home/mirco/Documenti/projects/GF2D/build/game/CMakeFiles/edit_cache.dir
+/home/mirco/Documenti/projects/GF2D/build/game/CMakeFiles/rebuild_cache.dir
