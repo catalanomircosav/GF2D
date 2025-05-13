@@ -1,11 +1,9 @@
 game/CMakeFiles/game.dir/src/main.cpp.o: \
  /home/mirco/Documenti/projects/GF2D/game/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/mirco/Documenti/projects/GF2D/framework/include/Core/Logger.h \
- /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/spdlog.h \
- /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/common.h \
- /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/details/null_mutex.h \
- /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
+ /home/mirco/Documenti/projects/GF2D/game/include/Game.h \
+ /home/mirco/Documenti/projects/GF2D/framework/include/IApplication.h \
+ /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -16,8 +14,36 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/new \
+ /usr/include/c++/13/pstl/pstl_config.h \
+ /usr/include/c++/13/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+ /usr/include/c++/13/bits/new_allocator.h /usr/include/c++/13/new \
  /usr/include/c++/13/bits/exception.h \
+ /usr/include/c++/13/bits/functexcept.h \
+ /usr/include/c++/13/bits/exception_defines.h \
+ /usr/include/c++/13/bits/move.h /usr/include/c++/13/type_traits \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/bits/stl_construct.h \
+ /usr/include/c++/13/bits/stl_iterator_base_types.h \
+ /usr/include/c++/13/bits/iterator_concepts.h \
+ /usr/include/c++/13/concepts /usr/include/c++/13/bits/ptr_traits.h \
+ /usr/include/c++/13/bits/ranges_cmp.h \
+ /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/13/bits/concept_check.h \
+ /usr/include/c++/13/debug/assertions.h \
+ /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
+ /usr/include/c++/13/compare /usr/include/c++/13/ext/numeric_traits.h \
+ /usr/include/c++/13/bits/cpp_type_traits.h \
+ /usr/include/c++/13/ext/type_traits.h \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_algobase.h \
+ /usr/include/c++/13/bits/stl_iterator.h \
+ /usr/include/c++/13/debug/debug.h \
+ /usr/include/c++/13/bits/predefined_ops.h /usr/include/c++/13/bit \
+ /usr/include/c++/13/ext/alloc_traits.h \
+ /usr/include/c++/13/bits/alloc_traits.h \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -27,19 +53,48 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/bits/move.h /usr/include/c++/13/type_traits \
- /usr/include/c++/13/bits/atomic_wait.h /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/unique_ptr.h /usr/include/c++/13/tuple \
+ /usr/include/c++/13/bits/invoke.h /usr/include/c++/13/bits/ranges_util.h \
+ /usr/include/c++/13/bits/ranges_base.h \
+ /usr/include/c++/13/initializer_list \
+ /usr/include/c++/13/bits/max_size_type.h /usr/include/c++/13/numbers \
+ /usr/include/c++/13/bits/stl_function.h \
+ /usr/include/c++/13/backward/binders.h \
  /usr/include/c++/13/bits/functional_hash.h \
- /usr/include/c++/13/bits/hash_bytes.h \
+ /usr/include/c++/13/bits/hash_bytes.h /usr/include/c++/13/ostream \
+ /usr/include/c++/13/bits/requires_hosted.h /usr/include/c++/13/ios \
+ /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
+ /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
+ /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/bits/char_traits.h \
+ /usr/include/c++/13/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+ /usr/include/c++/13/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
+ /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
@@ -51,8 +106,6 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -63,101 +116,14 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/c++/13/ext/numeric_traits.h \
- /usr/include/c++/13/bits/cpp_type_traits.h \
- /usr/include/c++/13/ext/type_traits.h /usr/include/c++/13/cerrno \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/13/climits \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/syscall.h \
- /usr/include/x86_64-linux-gnu/sys/syscall.h \
- /usr/include/x86_64-linux-gnu/asm/unistd.h \
- /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
- /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /usr/include/c++/13/bits/functexcept.h \
- /usr/include/c++/13/bits/exception_defines.h \
- /usr/include/c++/13/bits/std_mutex.h /usr/include/c++/13/utility \
- /usr/include/c++/13/bits/stl_relops.h \
- /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
- /usr/include/c++/13/compare /usr/include/c++/13/concepts \
- /usr/include/c++/13/initializer_list \
- /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/tweakme.h \
- /usr/include/c++/13/chrono /usr/include/c++/13/bits/requires_hosted.h \
- /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
- /usr/include/c++/13/limits /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/bit \
- /usr/include/c++/13/sstream /usr/include/c++/13/istream \
- /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
- /usr/include/c++/13/bits/stringfwd.h \
- /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
- /usr/include/c++/13/cwchar /usr/include/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
- /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
- /usr/include/c++/13/bits/cxxabi_init_exception.h \
- /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
- /usr/include/c++/13/bits/char_traits.h \
- /usr/include/c++/13/bits/stl_construct.h \
- /usr/include/c++/13/bits/stl_iterator_base_types.h \
- /usr/include/c++/13/bits/iterator_concepts.h \
- /usr/include/c++/13/bits/ptr_traits.h \
- /usr/include/c++/13/bits/ranges_cmp.h \
- /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/13/bits/concept_check.h \
- /usr/include/c++/13/debug/assertions.h \
- /usr/include/c++/13/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
- /usr/include/ctype.h /usr/include/c++/13/bits/ios_base.h \
- /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \
- /usr/include/c++/13/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
- /usr/include/c++/13/bits/new_allocator.h \
  /usr/include/c++/13/bits/ostream_insert.h \
  /usr/include/c++/13/bits/cxxabi_forced.h \
- /usr/include/c++/13/bits/stl_iterator.h \
- /usr/include/c++/13/bits/stl_function.h \
- /usr/include/c++/13/backward/binders.h \
- /usr/include/c++/13/bits/stl_algobase.h \
- /usr/include/c++/13/debug/debug.h \
- /usr/include/c++/13/bits/predefined_ops.h \
- /usr/include/c++/13/bits/refwrap.h /usr/include/c++/13/bits/invoke.h \
+ /usr/include/c++/13/bits/refwrap.h \
  /usr/include/c++/13/bits/range_access.h \
- /usr/include/c++/13/bits/basic_string.h \
- /usr/include/c++/13/ext/alloc_traits.h \
- /usr/include/c++/13/bits/alloc_traits.h /usr/include/c++/13/string_view \
- /usr/include/c++/13/bits/ranges_base.h \
- /usr/include/c++/13/bits/max_size_type.h /usr/include/c++/13/numbers \
+ /usr/include/c++/13/bits/basic_string.h /usr/include/c++/13/string_view \
  /usr/include/c++/13/bits/string_view.tcc \
  /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -181,13 +147,15 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/13/cerrno \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
- /usr/include/c++/13/bits/uses_allocator.h \
- /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /usr/include/c++/13/bits/ranges_util.h \
+ /usr/include/c++/13/bits/uses_allocator_args.h \
  /usr/include/c++/13/bits/locale_classes.tcc \
  /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
@@ -200,24 +168,126 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
  /usr/include/c++/13/bits/locale_facets.tcc \
- /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
+ /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/bits/atomic_wait.h /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/bits/ranges_uninitialized.h \
+ /usr/include/c++/13/bits/ranges_algobase.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_stdinc.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_platform_defines.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_begin_code.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_close_code.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_assert.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_asyncio.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_atomic.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_audio.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_endian.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_error.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_mutex.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_thread.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_properties.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_iostream.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_bits.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_blendmode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_camera.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_pixels.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_surface.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_rect.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_clipboard.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_cpuinfo.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_dialog.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_video.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_events.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_gamepad.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_guid.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_joystick.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_power.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_sensor.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_keyboard.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_keycode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_scancode.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_mouse.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_pen.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_touch.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_filesystem.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_gpu.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_haptic.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_hidapi.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_hints.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_init.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_loadso.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_locale.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_log.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_messagebox.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_metal.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_misc.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_platform.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_process.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_render.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_storage.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_system.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_time.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_timer.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_tray.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_version.h \
+ /home/mirco/Documenti/projects/GF2D/extern/SDL3/include/SDL3/SDL_oldnames.h \
+ /home/mirco/Documenti/projects/GF2D/framework/include/Core/Logger.h \
+ /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/spdlog.h \
+ /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/common.h \
+ /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/details/null_mutex.h \
+ /usr/include/c++/13/atomic /usr/include/c++/13/utility \
+ /usr/include/c++/13/bits/stl_relops.h \
+ /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/tweakme.h \
+ /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/limits \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/sstream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/bits/stl_tempbuf.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/bits/align.h \
  /usr/include/c++/13/bits/chrono_io.h /usr/include/c++/13/iomanip \
  /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h \
@@ -231,7 +301,6 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/13/optional \
  /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/span /usr/include/c++/13/variant \
- /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
@@ -240,18 +309,9 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/node_handle.h \
  /usr/include/c++/13/bits/erase_if.h \
  /usr/include/c++/13/bits/move_only_function.h \
- /usr/include/c++/13/bits/mofunc_impl.h /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/bits/ranges_uninitialized.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
+ /usr/include/c++/13/bits/mofunc_impl.h \
  /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/fmt/fmt.h \
  /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/fmt/bundled/base.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/fmt/bundled/format.h \
  /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/fmt/bundled/base.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
@@ -294,4 +354,5 @@ game/CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/13/cassert /usr/include/assert.h \
  /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/details/log_msg_buffer.h \
  /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/details/log_msg.h \
- /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/version.h
+ /home/mirco/Documenti/projects/GF2D/extern/spdlog/include/spdlog/version.h \
+ /usr/include/c++/13/iostream

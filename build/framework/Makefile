@@ -155,6 +155,30 @@ src/Core/Logger.cpp.s:
 	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.s
 .PHONY : src/Core/Logger.cpp.s
 
+src/IApplication.o: src/IApplication.cpp.o
+.PHONY : src/IApplication.o
+
+# target to build an object file
+src/IApplication.cpp.o:
+	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/IApplication.cpp.o
+.PHONY : src/IApplication.cpp.o
+
+src/IApplication.i: src/IApplication.cpp.i
+.PHONY : src/IApplication.i
+
+# target to preprocess a source file
+src/IApplication.cpp.i:
+	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/IApplication.cpp.i
+.PHONY : src/IApplication.cpp.i
+
+src/IApplication.s: src/IApplication.cpp.s
+.PHONY : src/IApplication.s
+
+# target to generate assembly for a file
+src/IApplication.cpp.s:
+	cd /home/mirco/Documenti/projects/GF2D/build && $(MAKE) $(MAKESILENT) -f framework/CMakeFiles/framework.dir/build.make framework/CMakeFiles/framework.dir/src/IApplication.cpp.s
+.PHONY : src/IApplication.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -167,6 +191,9 @@ help:
 	@echo "... src/Core/Logger.o"
 	@echo "... src/Core/Logger.i"
 	@echo "... src/Core/Logger.s"
+	@echo "... src/IApplication.o"
+	@echo "... src/IApplication.i"
+	@echo "... src/IApplication.s"
 .PHONY : help
 
 

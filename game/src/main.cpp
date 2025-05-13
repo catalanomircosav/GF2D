@@ -1,15 +1,12 @@
-#include <Core/Logger.h>
+#include <Game.h>
 
 int main(int argc, char** argv)
 {
-    Core::Logger::init(Core::LogLevel::TRACE);
+    AppParams params;
+    params.title = "Game";
 
-    Core::Logger::log(Core::LogLevel::TRACE, "This is a trace.");
-    Core::Logger::log(Core::LogLevel::DEBUG, "This is a debug.");
-    Core::Logger::log(Core::LogLevel::INFO, "This is an info.");
-    Core::Logger::log(Core::LogLevel::WARN, "This is a warning.");
-    Core::Logger::log(Core::LogLevel::ERROR, "This is an error.");
-    Core::Logger::log(Core::LogLevel::CRITICAL, "This is a critical.");
+    Game game(params);
     
+    game.run();
     return 0;
 }

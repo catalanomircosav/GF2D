@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp" "framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o" "gcc" "framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o.d"
+  "/home/mirco/Documenti/projects/GF2D/framework/src/IApplication.cpp" "framework/CMakeFiles/framework.dir/src/IApplication.cpp.o" "gcc" "framework/CMakeFiles/framework.dir/src/IApplication.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

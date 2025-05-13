@@ -83,18 +83,34 @@ framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/src/Core/Logger.cpp.s"
 	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp -o CMakeFiles/framework.dir/src/Core/Logger.cpp.s
 
+framework/CMakeFiles/framework.dir/src/IApplication.cpp.o: framework/CMakeFiles/framework.dir/flags.make
+framework/CMakeFiles/framework.dir/src/IApplication.cpp.o: /home/mirco/Documenti/projects/GF2D/framework/src/IApplication.cpp
+framework/CMakeFiles/framework.dir/src/IApplication.cpp.o: framework/CMakeFiles/framework.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mirco/Documenti/projects/GF2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object framework/CMakeFiles/framework.dir/src/IApplication.cpp.o"
+	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT framework/CMakeFiles/framework.dir/src/IApplication.cpp.o -MF CMakeFiles/framework.dir/src/IApplication.cpp.o.d -o CMakeFiles/framework.dir/src/IApplication.cpp.o -c /home/mirco/Documenti/projects/GF2D/framework/src/IApplication.cpp
+
+framework/CMakeFiles/framework.dir/src/IApplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/framework.dir/src/IApplication.cpp.i"
+	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mirco/Documenti/projects/GF2D/framework/src/IApplication.cpp > CMakeFiles/framework.dir/src/IApplication.cpp.i
+
+framework/CMakeFiles/framework.dir/src/IApplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/framework.dir/src/IApplication.cpp.s"
+	cd /home/mirco/Documenti/projects/GF2D/build/framework && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mirco/Documenti/projects/GF2D/framework/src/IApplication.cpp -o CMakeFiles/framework.dir/src/IApplication.cpp.s
+
 # Object files for target framework
 framework_OBJECTS = \
-"CMakeFiles/framework.dir/src/Core/Logger.cpp.o"
+"CMakeFiles/framework.dir/src/Core/Logger.cpp.o" \
+"CMakeFiles/framework.dir/src/IApplication.cpp.o"
 
 # External object files for target framework
 framework_EXTERNAL_OBJECTS =
 
 lib/libframework.a: framework/CMakeFiles/framework.dir/src/Core/Logger.cpp.o
+lib/libframework.a: framework/CMakeFiles/framework.dir/src/IApplication.cpp.o
 lib/libframework.a: framework/CMakeFiles/framework.dir/build.make
 lib/libframework.a: /home/mirco/Documenti/projects/GF2D/extern/SDL3/src/dynapi/SDL_dynapi.sym
 lib/libframework.a: framework/CMakeFiles/framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mirco/Documenti/projects/GF2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../lib/libframework.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mirco/Documenti/projects/GF2D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/libframework.a"
 	cd /home/mirco/Documenti/projects/GF2D/build/framework && $(CMAKE_COMMAND) -P CMakeFiles/framework.dir/cmake_clean_target.cmake
 	cd /home/mirco/Documenti/projects/GF2D/build/framework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/framework.dir/link.txt --verbose=$(VERBOSE)
 

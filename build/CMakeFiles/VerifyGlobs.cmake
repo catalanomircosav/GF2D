@@ -6,6 +6,7 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mirco/Documenti/projects/GF2D/framework/include/*.h")
 set(OLD_GLOB
   "/home/mirco/Documenti/projects/GF2D/framework/include/Core/Logger.h"
+  "/home/mirco/Documenti/projects/GF2D/framework/include/IApplication.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -16,6 +17,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mirco/Documenti/projects/GF2D/framework/src/*.cpp")
 set(OLD_GLOB
   "/home/mirco/Documenti/projects/GF2D/framework/src/Core/Logger.cpp"
+  "/home/mirco/Documenti/projects/GF2D/framework/src/IApplication.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -25,6 +27,7 @@ endif()
 # HEADERS at game/CMakeLists.txt:4 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/mirco/Documenti/projects/GF2D/game/include/*.h")
 set(OLD_GLOB
+  "/home/mirco/Documenti/projects/GF2D/game/include/Game.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
